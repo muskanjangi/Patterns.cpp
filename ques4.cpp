@@ -1,10 +1,9 @@
-
 #include<bits/stdc++.h>
 using namespace std;
 void doSomething(int n){
     for(int i=1;i<=n;i++){
         for(int j=1;j<i+1;j++){
-            cout << "* ";
+            cout << i << "";
         }
         cout << endl;
     }
@@ -19,6 +18,3 @@ int main(){
     }
     return 0;
 }
-//- Outer loop (i) runs from 0 to n-1 → controls the number of rows.
-//- Inner loop (j) runs from 0 to i → controls how many stars to print in each row.
-//- So row i has i+1 stars.
